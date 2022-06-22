@@ -1,0 +1,19 @@
+{
+  "name": "file-downloader-using-nodejs",
+  "version": "1.0.0",
+  "description": "this is a file downloader made using node js and express-zip package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developeryash-kevit/File-downloader-nodejs.git"
+  },
+  "author": "developer-yash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/developeryash-kevit/File-downloader-nodejs/issues"
+  },
+  "homepage": "https://github.com/developeryash-kevit/File-downloader-nodejs#readme"
+}

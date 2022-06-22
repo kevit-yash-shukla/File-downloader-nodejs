@@ -1,0 +1,62 @@
+1. use to specify version of git
+git --version
+
+2. command to intialize empty git repository
+git init 
+
+3. command to add files to staging area
+git add 
+git add . (add all files available in directory to staging area)
+
+4. command to save changes to local repository
+git commit
+git commit -m "commit-message_to_add"
+
+5. command to tell current status of the repository
+git status
+
+6. command to configure user.name and user.email
+git config --global user.name "user_name_to_set"
+git config --global user.email "email_to_set"
+
+7. command to determine what branch the local repository is on.
+git branch
+
+8. command to switch between branches
+git checkout <branch_name>
+
+9. command to integrate many branch together
+git merge <branch_name>
+
+10. command is used to create, view, and delete connections to other repositories. 
+git remote add origin <address>
+
+11. command to clone a repository locally
+git clone <remote_url>
+
+12. command to fetch and merge changes from remote repository to local repository
+git pull <branch_name> <remote_url>
+
+13. command to transfer commits or changes from local repository to remote repository
+git push -u origin master
+
+14. command to show a commit history
+git log
+
+15. command to give tag to specific commit
+git tag <commit_ID>
+
+16. command to create new branch
+git branch <branch_name>
+
+17. command to delete specific branch
+git branch -d [branch_name]
+
+18 command shows the metadata and content changes of the specified commit.
+git show <commit_ID>
+
+19 This command deletes the file from your working directory and stages the deletion.
+git rm <file_name>
+
+20 command shows the file differences which are not yet staged.
+git diff
